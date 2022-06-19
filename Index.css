@@ -1,0 +1,17 @@
+#center{
+    text-align: center;
+    text-size-adjust: 20;
+}
+#cont{
+    height: 1000px;
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 0%;
+}
+#submit{
+    display: flex;
+    flex-direction: column;
+    margin-top: 8%;
+}
