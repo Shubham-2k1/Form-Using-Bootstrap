@@ -1,21 +1,23 @@
 #center{
     text-align: center;
     text-size-adjust: 20;
+    text-decoration: dotted;
 }
-#cont{
-    height: 1000px;
-    width: 750px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-top: 0%;
-}
+
 #submit{
     display: flex;
     flex-direction: column;
     margin-top: 8%;
+    margin-left: 20%;
+    height: 5cm;
+    width: 20cm;
+    align-items: center;
 }
 #head{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: medium;
+}
+#cont{
+    height: auto;
+    width: 1000px;
 }
