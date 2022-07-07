@@ -6,60 +6,91 @@
             <title>
             Form.html
            </title>
-           <p class="text-center text-light" id="head">WELCOME!<br></p>
+           <p class="text-center text-light" id="head" >WELCOME!<br></p>
     </head>
     
-    <body class="bg-black">
-        <div class="container bg-light" id="cont" >
-            <form class="row" >
+    <body class="bg-success">
+        <div class="container bg-light shadow p-3 mb-5 bg-white rounded" id="cont" >
+            <form>
                 <p class="text-center">Fill your detailes here!!!</p>
+                
+                <div class="row">
+                    <label class="col-5">First name:</label>
+                    <input class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded" type="text">
+                </div>
 
-                <label>First name:</label>
-                <input type="text">
+                <div class="row">
+                    <label class="col">Last name:</label>
+                    <input class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded" type="text">
+                </div>
+                
+                <div class="row">
+                    <label class="col">Email :</label>
+                    <input type="text" class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded">
+                </div>
+                    
+                <div class="row">
+                    <label class="col">College :</label>
+                    <input class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded" type="text">
+                </div>
+                    
+                <div class="row">
+                    <label class="col">Address :</label>
+                    <input type="text" class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded">
+                </div>
+                    
+                <div class="row">
+                    <label class="col">State :</label>
+                    <input type="text" class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded">
+                </div>
+                    
+                <div class="row">
+                    <label class="col">City :</label>
+                    <input type="text" class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded">
+                </div>
+                    
+                <div class="row">
+                    <label class="col">PinCode :</label>
+                    <input type="text" class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded">
+                </div>
+                    
+                <div class="row">
+                    <label class="col">Gender :</label>
+                    
+                    <input class="col" type="radio" id="male" name="gender" value="Male">
+                    <label class="col" for="male">Male</label>
 
-                <label>Last name:</label>
-                <input type="text">
+                    <input class="col" type="radio" id="female" name="gender" value="Female">
+                    <label for="female" class="col">Female</label>
 
-                <label>Email :</label>
-                <input type="text">
+                    <input class="col" type="radio" id="other" name="gender" value="Other">
+                    <label for="other" class="col">Others</label>
+                </div>
+                    
+                <div class="row">
+                    <label class="col">Contact Number :</label>
+                    <input type="text" class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded">
+                </div>
 
-                <label>College :</label>
-                <input type="text">
-
-                <label>Address :</label>
-                <input type="text">
-
-                <label>State :</label>
-                <input type="text">
-
-                <label>City :</label>
-                <input type="text">
-
-                <label>PinCode :</label>
-                <input type="number">
-
-                <label>Gender :</label>
-                <input type="radio" id="male" name="gender" value="Male">
-                <label for="male">Male</label>
-                <input type="radio" id="female" name="gender" value="Female">
-                <label for="female">Female</label>
-                <input type="radio" id="other" name="gender" value="Other">
-                <label for="other">Others</label>
-                <label>Contact Number :</label>
-                <input type="number">
-
-                <label>Username :</label>
-                <input type="text">
-
-                <label>Password :</label>
-                <input type="text">
-
-                <label>SS of Payment done :</label>
-                <input type="file">
+                <div class="row">
+                    <label class="col">Username :</label>
+                    <input type="text" class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded">
+                </div>
+                    
+                <div class="row">
+                    <label class="col">Password :</label>
+                    <input type="text" class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded">
+                </div>
+                    
+                <div class="row">
+                    <label class="col">SS of Payment done :</label>
+                    <input type="file" class="col-7 shadow-sm p-1.5 mb-2 bg-white rounded"> 
+                </div>
 
                 <div id="submit">
                     <input type="submit" value="Submit">
-                </div></form>
+                </div>
+            </form>
         </div>
         
     </body>
